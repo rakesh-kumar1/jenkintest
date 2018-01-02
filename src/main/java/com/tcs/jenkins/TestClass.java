@@ -14,7 +14,7 @@ public class TestClass {
 		
 		
 		new TestClass().sayHello();
-		
+		new TestClass().sayHelloAgain();
 			
 	}
 	
@@ -25,4 +25,9 @@ public class TestClass {
 		System.out.println("Hello World from Jenkins using maven --- auto build. !!");
 	}
 
+	
+public void sayHelloAgain () {
+		
+		System.out.println("Hello World again from Jenkins using maven --- auto build. !!");
+	}
 }
